@@ -1,4 +1,5 @@
 module.exports = {
+    "setupFiles": ["<rootDir>/config.ts"],
     "collectCoverageFrom": [
         "src/**/*.{js,ts}",
         "!src/**/*.d.ts"
